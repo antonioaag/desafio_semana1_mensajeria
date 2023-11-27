@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.users{
+    width: 30%;
+
+    }
+
+.user1{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 1rem;
+    border-bottom: solid #e8ebe4;
+}
+
+.chat{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #e8ebe4;
+    align-items: center;
+    padding: 3rem;
+}
+
+button{
+    display: flex;
+    border: none;
+    background-color: #a491d2;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 2rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.botonnuevochat{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid #e8ebe4
+}
+
+.iconos{
+    display: flex;
+    width: 20%;
+}
+
+.nombreyestado{
+    width: 70%;
+    text-align: left;
+}
+.foto{
+    width: 30%;
+}
+
+small{ color: #bec1bb;}
+
+.user2{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    border-bottom: solid #e8ebe4;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-small;
+
+}
+
+h2,h1{
+    font-family: 'Roboto', sans-serif;
+}
